@@ -1,0 +1,6 @@
+ 
+ The Hyrise Layout selection algorithm is analyzed w.r.t the storage efficiency  and the optimal storage layout 
+ generation forsmall-to-big enterprises.
+ A study through IBM's latest research papers on Cloud Computing, research publications by Microsoft regarding
+ the data classification and automatic data tiering and discussion with researchers from Hasso Plattner has been
+ used while analyzing the performance results of Hyrise reimplementation in C++ on Ubuntu 12.04.
