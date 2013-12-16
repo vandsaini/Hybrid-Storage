@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Hyrise Layout Selection Algorithm : Evaluation and propsed optimization " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Hyrise Layout Selection Algorithm</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/vandsaini/Hybrid-Storage">View on GitHub</a>
+
+          <h1 id="project_title">Hyrise Layout Selection Algorithm</h1>
+          <h2 id="project_tagline">Evaluation and propsed optimization </h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/vandsaini/Hybrid-Storage/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/vandsaini/Hybrid-Storage/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>
+  </p>
+    HYRISE Layout Storage Engine
+    &lt;!--[if lt IE 9]&gt;
+      
+    &lt;![endif]--&gt;
+    &lt;!--[if lt IE 8]&gt;
+    
+    &lt;![endif]--&gt;
+    <p>
+  </p>
+      <div>
+         <a href="https://github.com/vandsaini/Hybrid-Storage">View On GitHub</a>
+          </div>&lt;!-- end header --&gt;
+
+<pre><code>&lt;div class="wrapper"&gt;
+
+  &lt;section&gt;
+    &lt;div id="title"&gt;
+      &lt;h1&gt;Hybrid Storage&lt;/h1&gt;
+      &lt;p&gt;&lt;/p&gt;
+      &lt;hr&gt;
+      &lt;span class="credits left"&gt;Project maintained by &lt;a href="https://github.com/vandsaini"&gt;vandsaini&lt;/a&gt;&lt;/span&gt;
+      &lt;span class="credits right"&gt;Hosted on GitHub Pages &amp;mdash; Theme by &lt;a href="https://twitter.com/michigangraham"&gt;mattgraham&lt;/a&gt;&lt;/span&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;&lt;a href="proposal.pdf"&gt;Proposal&lt;/a&gt;&lt;/p&gt;
+</code></pre>
+
+<p><a href="http://exascale.info/Files/Grund_DEB_2012.pdf">An overview of Hyrise</a></p>
+
+<p><a href="ProgressReport.pdf">Progress Report</a></p>
+
+<p><a href="Project_report.pdf">Final Project Report</a></p>
+
+<h3>
+<a name="summary" class="anchor" href="#summary"><span class="octicon octicon-link"></span></a>
+<a name="summary" href="#summary"></a>Summary</h3>
+
+<p>HYRISE a main-memory hybrid storage engine has evolved as the solution for real-time analytics and forecasting scenarios, due to its performance and storage capabilities over the disk-based counterparts. With the recent advent of multi-core architectures and DRAMs becoming relatively inexpensive, the complete working set needed for transactional and analytical processing of small-to-big enterprise applications can be kept in memory. The candidate based layout selection algorithm presently being used in HYRISE supports dynamic vertical partitioning of relational tables into containers with disjoint set of attributes, which includes hot data (frequently used working-set) and cold data (non-frequently used). An evaluation of the performance of Layout selection algorithm is presented. The cold data lessens the main-memory utilization, incurring an increased cost and complexity and affecting the query performance. The classification and access and moving of the cold data to a fairly less expensive and easily accessible secondary storage medium is further analyzed.</p>
+
+<h3>
+<a name="goal" class="anchor" href="#goal"><span class="octicon octicon-link"></span></a>
+<a name="goal" href="#goal"></a>Goal</h3>
+
+<p>The layout selection algorithm is implemented in C++ on a Ubuntu 12.04 platform and the results are analyzed for big-to-small enterprise applications. Cloud-integrated in-memory storage is proposed to improve the overall performance and compared to the other variants. </p>
+
+<h3>
+<a name="author-and-contributor" class="anchor" href="#author-and-contributor"><span class="octicon octicon-link"></span></a>
+<a name="author-and-contributor" href="#author-and-contributor"></a>Author and Contributor</h3>
+
+<p>Vandana Saini (<a href="https://github.com/vandsaini">@vandsaini</a>) <a href="mailto:vsaini@cs.toronto.edu">vsaini@cs.toronto.edu</a></p>
+
+<pre><code>  &lt;/section&gt;
+
+&lt;/div&gt;
+&lt;!--[if !IE]&gt;&lt;script&gt;fixScale(document);&lt;/script&gt;&lt;![endif]--&gt;
+</code></pre>
+
+<p>
+</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Hyrise Layout Selection Algorithm maintained by <a href="https://github.com/vandsaini">vandsaini</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
